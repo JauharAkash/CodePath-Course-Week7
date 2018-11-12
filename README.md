@@ -28,7 +28,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
   <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/2.gif" alt="1" title="1" />
   - [ ] Steps to recreate: Go to the post, paste the code in the comment section (shown in the gif). The alert will pop up then.
  
- - [ ] Affected source code:
+ - [ ] Affected source code: https://wpvulndb.com/vulnerabilities/9088
 
 “Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL” ID: 2017-6817
 - [ ] Summary: Attack the user by having the user click on a youtube link. The link is embedded.
@@ -39,7 +39,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
   <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/3.gif" alt="3" title="1" />
   - [ ] Steps to recreate: Go to the post, put in comments the script which has the youtube link and the malicious code. Submit and then you will see the messages as shown by the gifs.
 
-- [ ] Affected source code:
+- [ ] Affected source code: https://wpvulndb.com/vulnerabilities/8768
 
 “Large File Upload Error XSS”
 1. (Optional) Vulnerability Name: “Large File Upload Error XSS” or ID: 2017-9061
@@ -49,9 +49,9 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
     - Fixed in version: 4.9.8
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/4.gif" alt="1" title="1" /> 
-  - [ ] Steps to recreate: Uploading an image larger than 2MB and naming the file ---- <img "src=x onerror=alert(1)">.png ---. Which stores the malicious script.
+  - [ ] Steps to recreate: Uploading an image larger than 2MB and naming the file -- "<img "src=x onerror=alert(1)">.png" --. Which stores the malicious script.
  
- - [ ] Affected source code:
+ - [ ] Affected source code:  https://wpvulndb.com/vulnerabilities/8819
 
 ## Assets
 
