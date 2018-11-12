@@ -25,7 +25,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
     - Tested in version: 4.2
     - Fixed in version: 4.2
   - [ ] GIF Walkthrough: 
-  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/1.gif" alt="2" title="2" />
+  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/2.gif" alt="1" title="1" />
   - [ ] Steps to recreate: Go to the post, paste the code in the comment section (shown in the gif). The alert will pop up then.
  
  - [ ] Affected source code:
@@ -36,7 +36,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
     - Tested in version: 4.0-4.7.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/1.gif" alt="3" title="1" />
+  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/3.gif" alt="3" title="1" />
   - [ ] Steps to recreate: Go to the post, put in comments the script which has the youtube link and the malicious code. Submit and then you will see the messages as shown by the gifs.
 
 - [ ] Affected source code:
@@ -48,7 +48,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
     - Tested in version: 3.3-4.7
     - Fixed in version: 4.9.8
   - [ ] GIF Walkthrough: 
-  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/4.gif" alt="4" title="1" /> 
+  <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/4.gif" alt="1" title="1" /> 
   - [ ] Steps to recreate: Uploading an image larger than 2MB and naming the file ----  <img "src=x onerror=alert(1)">.png ---. Which stores the malicious script.
  
  - [ ] Affected source code:
