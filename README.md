@@ -49,7 +49,7 @@ Vulnerability Name: Unauthenticated Stored Cross Site-Scripting or ID: 2015-3440
     - Fixed in version: 4.9.8
   - [ ] GIF Walkthrough: 
   <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/4.gif" alt="1" title="1" /> 
-  - [ ] Steps to recreate: Uploading an image larger than 2MB and naming the file ----  <img "src=x onerror=alert(1)">.png ---. Which stores the malicious script.
+  - [ ] Steps to recreate: Uploading an image larger than 2MB and naming the file ---- <img "src=x onerror=alert(1)">.png ---. Which stores the malicious script.
  
  - [ ] Affected source code:
 
