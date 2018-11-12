@@ -13,6 +13,7 @@ Vulnerability Name: Upload Same Origin Method Execution or ID: 2016-4566
     - Tested in version: 4.5.1
     - Fixed in version: 4.2.8
   - [ ] GIF Walkthrough: 
+   <img src="https://github.com/JauharAkash/Codepathweek7/blob/master/1.gif" alt="1" title="1" />
   - [ ] Steps to recreate: Go to Post, go to the comments and paste the script which will then make a button. After clicking on the button, the alert will pop up to download a malicious script.
   - [ ] Affected source code:
 
